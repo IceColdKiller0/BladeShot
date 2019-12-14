@@ -63,11 +63,19 @@
      <Compile Include="Assets\Assets\Tilemap\Tiles\Rule Tile\Scripts\RuleTile.cs" />
      <Compile Include="Assets\Assets\Tilemap\Tiles\Terrain Tile\Scripts\TerrainTile.cs" />
      <Compile Include="Assets\Assets\Tilemap\Tiles\Weighted Random Tile\WeightedRandomTile.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemy\MossGiant.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Spider.cs" />
+     <Compile Include="Assets\Scripts\IDamageable.cs" />
+     <Compile Include="Assets\Scripts\Player\Attack.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAnimation.cs" />
      <None Include="Assets\Assets\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/willi/Documents/Android Game/Roller/Game_Concept_Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/willi/Documents/Android Game/Roller/Game_Concept_Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/willi/Documents/Android Game/Roller/Game_Concept_Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -92,6 +100,9 @@
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
  <HintPath>C:/Users/willi/Documents/Android Game/Roller/Game_Concept_Project/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/willi/Documents/Android Game/Roller/Game_Concept_Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/willi/Documents/Android Game/Roller/Game_Concept_Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
